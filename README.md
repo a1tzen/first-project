@@ -1,13 +1,13 @@
 # Минимум по Git — Global Information Tracker
 
-VCS (Version Control System) — система контроля версий  
-SCM (Source Control Management) — система управления исходным кодом
+**VCS (Version Control System) — система контроля версий**  
+__SCM (Source Control Management) — система управления исходным кодом__
 
 ## Работа с командной строкой
 Полезные команды
 
 текущая директория  
-pwd 
+pwd  
 менять директории командой  
 cd ~  
 cd /c/  
@@ -21,7 +21,8 @@ mkdir -p (--parents)
 Копирование файлов — cp  
 Перемещение файлов и папок — mv  
 Чтение файлов — cat  
-Удаление файлов и папок — rm, rmdir, rm -r(--recursive)  
+Удаление файлов и папок — rm, rmdir, rm -r(--recursive) 
+ 
 && — сразу несколько команд  
 
 Tab — автозаполнение  
