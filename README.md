@@ -84,11 +84,11 @@ git push -u origin main
 ```mermaid
 %% описание схемы
 graph LR;
-  untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
-
-%% стрелка без текста для примера: 
-  A --> B;
+  untracked -- "git add" --> staged + tracked;
+  staged + tracked -- "git commit" --> tracked/comitted;
+  tracked/comitted -- "изменения" --> modified;
+  modified -- "git add" --> staged + tracked;
+  staged + tracked -- "изменения" --> modified;
 
 ```
 <и тут пустая строка!> 
