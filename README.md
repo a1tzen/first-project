@@ -83,7 +83,7 @@ git push -u origin main
 
 ```mermaid
 %% описание схемы
-graph LR;
+graph TD;
   untracked -- "git add" --> staged/tracked;
   staged/tracked -- "git commit" --> tracked/comitted;
   tracked/comitted -- "изменения" --> modified;
